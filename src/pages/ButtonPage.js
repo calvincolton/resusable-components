@@ -23,21 +23,37 @@ const ButtonPage = () => {
       </div>
       <div className="m-4">
         {VARIANTS.map((variant) => (
-          <Button key={variant} variant={variant} rounded className="mb-4 whitespace-nowrap">
+          <Button
+            key={variant}
+            variant={variant}
+            rounded
+            className="mb-4 whitespace-nowrap"
+          >
             My Button
           </Button>
         ))}
       </div>
       <div className="m-4">
         {VARIANTS.map((variant) => (
-          <Button key={variant} variant={variant} outline className="mb-4 whitespace-nowrap">
+          <Button
+            key={variant}
+            variant={variant}
+            outline
+            className="mb-4 whitespace-nowrap"
+          >
             My Button
           </Button>
         ))}
       </div>
       <div className="m-4">
         {VARIANTS.map((variant) => (
-          <Button key={variant} variant={variant} rounded outline className="mb-4 whitespace-nowrap">
+          <Button
+            key={variant}
+            variant={variant}
+            rounded
+            outline
+            className="mb-4 whitespace-nowrap"
+          >
             My Button
           </Button>
         ))}

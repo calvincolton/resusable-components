@@ -21,6 +21,10 @@ const LINKS = [
     path: "/modal",
     label: "Modal",
   },
+  {
+    path: "/table",
+    label: "Table",
+  },
 ];
 
 const SideBar = () => {
