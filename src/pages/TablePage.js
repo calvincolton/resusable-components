@@ -28,25 +28,6 @@ const keyFn = (fruit) => {
   return fruit.name;
 };
 
-// const getSortValue = (fruit) => {
-//   return fruit.score;
-// };
-
-// const sortOrder = "asc";
-
-// const sortFn = data.sort((a, b) => {
-//   const valueA = getSortValue(a);
-//   const valueB = getSortValue(b);
-
-//   const reverseOrder = sortOrder === "asc" ? 1 : -1;
-
-//   if (typeof valueA === "string") {
-//     return valueA.localeCompare(valueB) * reverseOrder;
-//   } else {
-//     return (valueA - valueB) * reverseOrder;
-//   }
-// });
-
 const TablePage = () => {
   return (
     <div>
